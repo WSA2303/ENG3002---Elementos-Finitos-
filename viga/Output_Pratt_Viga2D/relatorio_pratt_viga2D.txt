@@ -1,0 +1,182 @@
+=====================================================
+RELATÓRIO DE RESULTADOS - PRATT COM ELEMENTO DE VIGA 2D
+Elemento Euler-Bernoulli 2D | Sistema kN - mm
+=====================================================
+
+1. DADOS GERAIS
+Número de nós: 8
+Número de elementos: 13
+GDL por nó: 3 -> [u_x, u_y, theta_z]
+Número total de GDL: 24
+E adotado: 200.000000 kN/mm²
+A adotada: 400.000000 mm²
+I adotado: 13333.333333 mm^4
+Escala automática da deformada: 96.532914
+
+2. DESLOCAMENTOS NODAIS
+Nó        ux [mm]        uy [mm]       theta [rad]
+  1    0.000000e+00   0.000000e+00  -4.181514e-03
+  2    1.562419e+00  -9.887605e+00  -2.551176e-03
+  3    3.124968e+00  -1.444014e+01  -3.314195e-04
+  4    5.468521e+00  -1.066860e+01   2.492614e-03
+  5    7.030924e+00   0.000000e+00   4.478862e-03
+  6    5.468469e+00  -9.887638e+00  -2.195442e-03
+  7    3.124926e+00  -1.522128e+01   2.053157e-04
+  8    1.562400e+00  -9.887629e+00   2.167965e-03
+
+3. REAÇÕES DE APOIO
+Nó      GDL          Reação
+  1   u_x         5.684342e-14 kN
+  1   u_y         5.000000e+01 kN
+  5   u_y         5.000000e+01 kN
+
+4. PROPRIEDADES DOS ELEMENTOS
+Elem  nó_i nó_j   L [mm]    ang [graus]   E [kN/mm²]   A [mm²]   I [mm^4]
+   1     1     2  2500.0000       0.0000   200.000000   400.0000   13333.3333
+   2     2     3  2500.0000       0.0000   200.000000   400.0000   13333.3333
+   3     3     4  2500.0000       0.0000   200.000000   400.0000   13333.3333
+   4     4     5  2500.0000       0.0000   200.000000   400.0000   13333.3333
+   5     6     7  2500.0000       0.0000   200.000000   400.0000   13333.3333
+   6     7     8  2500.0000       0.0000   200.000000   400.0000   13333.3333
+   7     2     6  2500.0000      90.0000   200.000000   400.0000   13333.3333
+   8     3     7  2500.0000      90.0000   200.000000   400.0000   13333.3333
+   9     4     8  2500.0000      90.0000   200.000000   400.0000   13333.3333
+  10     1     6  3535.5339      45.0000   200.000000   400.0000   13333.3333
+  11     6     3  3535.5339     -45.0000   200.000000   400.0000   13333.3333
+  12     7     4  3535.5339     -45.0000   200.000000   400.0000   13333.3333
+  13     8     5  3535.5339     -45.0000   200.000000   400.0000   13333.3333
+
+5. ESFORÇOS INTERNOS POR ELEMENTO
+Convenções: N = EA du/dx; M = EI d²v/dx²; V = -dM/dx.
+N positivo indica tração no eixo local do elemento.
+
+Elemento 1 | nós 1-2
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+  -4.999741e+01   3.014128e-03   2.028632e+00   4.999741e+01  -3.014128e-03   5.506688e+00
+  N constante =  4.999741e+01 kN
+  V constante = -3.014128e-03 kN
+  M(0) = -2.028632e+00 kN.mm = -0.002029 kN.m
+  M(L) =  5.506688e+00 kN.mm =  0.005507 kN.m
+  M mínimo = -2.028632e+00 kN.mm = -0.002029 kN.m
+  M máximo =  5.506688e+00 kN.mm =  0.005507 kN.m
+
+Elemento 2 | nós 2-3
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+  -5.000156e+01   1.944153e-03   6.245063e-02   5.000156e+01  -1.944153e-03   4.797931e+00
+  N constante =  5.000156e+01 kN
+  V constante = -1.944153e-03 kN
+  M(0) = -6.245063e-02 kN.mm = -0.000062 kN.m
+  M(L) =  4.797931e+00 kN.mm =  0.004798 kN.m
+  M mínimo = -6.245063e-02 kN.mm = -0.000062 kN.m
+  M máximo =  4.797931e+00 kN.mm =  0.004798 kN.m
+
+Elemento 3 | nós 3-4
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+  -7.499369e+01  -2.191458e-03  -5.751624e+00   7.499369e+01   2.191458e-03   2.729797e-01
+  N constante =  7.499369e+01 kN
+  V constante =  2.191458e-03 kN
+  M(0) =  5.751624e+00 kN.mm =  0.005752 kN.m
+  M(L) =  2.729797e-01 kN.mm =  0.000273 kN.m
+  M mínimo =  2.729797e-01 kN.mm =  0.000273 kN.m
+  M máximo =  5.751624e+00 kN.mm =  0.005752 kN.m
+
+Elemento 4 | nós 4-5
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+  -4.999691e+01  -4.002321e-03  -7.121566e+00   4.999691e+01   4.002321e-03  -2.884236e+00
+  N constante =  4.999691e+01 kN
+  V constante =  4.002321e-03 kN
+  M(0) =  7.121566e+00 kN.mm =  0.007122 kN.m
+  M(L) = -2.884236e+00 kN.mm = -0.002884 kN.m
+  M mínimo = -2.884236e+00 kN.mm = -0.002884 kN.m
+  M máximo =  7.121566e+00 kN.mm =  0.007122 kN.m
+
+Elemento 5 | nós 6-7
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+   7.499337e+01   5.828573e-03   4.724908e+00  -7.499337e+01  -5.828573e-03   9.846524e+00
+  N constante = -7.499337e+01 kN
+  V constante = -5.828573e-03 kN
+  M(0) = -4.724908e+00 kN.mm = -0.004725 kN.m
+  M(L) =  9.846524e+00 kN.mm =  0.009847 kN.m
+  M mínimo = -4.724908e+00 kN.mm = -0.004725 kN.m
+  M máximo =  9.846524e+00 kN.mm =  0.009847 kN.m
+
+Elemento 6 | nós 7-8
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+   5.000084e+01  -4.847716e-03  -8.153138e+00  -5.000084e+01   4.847716e-03  -3.966152e+00
+  N constante = -5.000084e+01 kN
+  V constante =  4.847716e-03 kN
+  M(0) =  8.153138e+00 kN.mm =  0.008153 kN.m
+  M(L) = -3.966152e+00 kN.mm = -0.003966 kN.m
+  M mínimo = -3.966152e+00 kN.mm = -0.003966 kN.m
+  M máximo =  8.153138e+00 kN.mm =  0.008153 kN.m
+
+Elemento 7 | nós 2-6
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+   1.069976e-03  -4.151751e-03  -5.569139e+00  -1.069976e-03   4.151751e-03  -4.810239e+00
+  N constante = -1.069976e-03 kN
+  V constante =  4.151751e-03 kN
+  M(0) =  5.569139e+00 kN.mm =  0.005569 kN.m
+  M(L) = -4.810239e+00 kN.mm = -0.004810 kN.m
+  M mínimo = -4.810239e+00 kN.mm = -0.004810 kN.m
+  M máximo =  5.569139e+00 kN.mm =  0.005569 kN.m
+
+Elemento 8 | nós 3-7
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+   2.499636e+01  -3.229118e-04  -9.761573e-01  -2.499636e+01   3.229118e-04   1.688777e-01
+  N constante = -2.499636e+01 kN
+  V constante =  3.229118e-04 kN
+  M(0) =  9.761573e-01 kN.mm =  0.000976 kN.m
+  M(L) =  1.688777e-01 kN.mm =  0.000169 kN.m
+  M mínimo =  1.688777e-01 kN.mm =  0.000169 kN.m
+  M máximo =  9.761573e-01 kN.mm =  0.000976 kN.m
+
+Elemento 9 | nós 4-8
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+  -2.499115e+01   3.931345e-03   5.260473e+00   2.499115e+01  -3.931345e-03   4.567890e+00
+  N constante =  2.499115e+01 kN
+  V constante = -3.931345e-03 kN
+  M(0) = -5.260473e+00 kN.mm = -0.005260 kN.m
+  M(L) =  4.567890e+00 kN.mm =  0.004568 kN.m
+  M mínimo = -5.260473e+00 kN.mm = -0.005260 kN.m
+  M máximo =  4.567890e+00 kN.mm =  0.004568 kN.m
+
+Elemento 10 | nós 1-6
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+   7.070672e+01  -3.001768e-04  -2.028632e+00  -7.070672e+01   3.001768e-04   9.673472e-01
+  N constante = -7.070672e+01 kN
+  V constante =  3.001768e-04 kN
+  M(0) =  2.028632e+00 kN.mm =  0.002029 kN.m
+  M(L) =  9.673472e-01 kN.mm =  0.000967 kN.m
+  M mínimo =  9.673472e-01 kN.mm =  0.000967 kN.m
+  M máximo =  2.028632e+00 kN.mm =  0.002029 kN.m
+
+Elemento 11 | nós 6-3
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+  -3.534405e+01   2.963722e-04  -8.820165e-01   3.534405e+01  -2.963722e-04   1.929851e+00
+  N constante =  3.534405e+01 kN
+  V constante = -2.963722e-04 kN
+  M(0) =  8.820165e-01 kN.mm =  0.000882 kN.m
+  M(L) =  1.929851e+00 kN.mm =  0.001930 kN.m
+  M mínimo =  8.820165e-01 kN.mm =  0.000882 kN.m
+  M máximo =  1.929851e+00 kN.mm =  0.001930 kN.m
+
+Elemento 12 | nós 7-4
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+   3.534531e+01  -7.754165e-05  -1.862264e+00  -3.534531e+01   7.754165e-05   1.588113e+00
+  N constante = -3.534531e+01 kN
+  V constante =  7.754165e-05 kN
+  M(0) =  1.862264e+00 kN.mm =  0.001862 kN.m
+  M(L) =  1.588113e+00 kN.mm =  0.001588 kN.m
+  M mínimo =  1.588113e+00 kN.mm =  0.001588 kN.m
+  M máximo =  1.862264e+00 kN.mm =  0.001862 kN.m
+
+Elemento 13 | nós 8-5
+  Forças nodais locais resistentes [N1, V1, M1, N2, V2, M2]:
+   7.070566e+01   6.455879e-04  -6.017382e-01  -7.070566e+01  -6.455879e-04   2.884236e+00
+  N constante = -7.070566e+01 kN
+  V constante = -6.455879e-04 kN
+  M(0) =  6.017382e-01 kN.mm =  0.000602 kN.m
+  M(L) =  2.884236e+00 kN.mm =  0.002884 kN.m
+  M mínimo =  6.017382e-01 kN.mm =  0.000602 kN.m
+  M máximo =  2.884236e+00 kN.mm =  0.002884 kN.m
+
